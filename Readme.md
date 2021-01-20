@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Саушкин](https://up.htmlacademy.ru/htmlcss/30/user/681493).
-* Наставник: [Тина Кузьменко] (https://htmlacademy.ru/profile/tina_kuzmenko).
+* Наставник: [Тина Кузьменко](https://htmlacademy.ru/profile/tina_kuzmenko).
 
 ---
 
