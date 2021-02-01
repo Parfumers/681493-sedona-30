@@ -1,141 +1,149 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-    <header>
-      <nav>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="main-header">
+      <nav class="main-menu">
         <ul>
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
-        </ul>
-        <ul>
           <li><a href="#">Карта штата</a></li>
           <li><a href="#">Гостиницы</a></li>
         </ul>
       </nav>
+      <div class="sedona-logo">
+        <div class="index-logo">
+          <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Welcome to Sedona">
+        </div>
+      </div>
     </header>
-    <main>
-      <h1>Седона</h1>
-
-      <section>
-        <h2>о городе</h2>
-        <h3>Седона - небольшой городок в аризоне,<br>
-          заслуживающий большего!
-        </h3>
-        <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
+  </div>
+  <main>
+    <h1>Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
+    <p class="reasons">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
+    <div class="content">
+      <section class="content-reason-1">
+        <div class="content-reason-text to-right">
+          <b class="content-reason-title">
+            Настоящий городок
+          </b>
+          <span class="content-reason-number">- №1 -</span>
+          <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
+        <div class="content-reason-image to-right">
+          <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Настоящий городок">
+        </div>
       </section>
-
-      <section>
-        <h2>причины</h2>
-        <ul>
-          <li>
-            <h3>Настоящий<br>
-              городок</h3>
-            <p>- №1 -</p>
-            <p>седона-не аттракцион для туристов, там<br>
-            течет своя жизнь</p>
-          </li>
-          <li>
-            <section>
-              <h2>преимущества</h2>
-              <ul>
-                <li>
-                  <h3>жильё</h3>
-                  <p>рекомендуем пожить в настоящем<br>
-                    мотеле, всё как в кино</p>
-                </li>
-                <li>
-                  <h3>еда</h3>
-                  <p>всегда заказывайте фирменный бургер,<br>
-                  вы не разочаруетесь!</p>
-                </li>
-                <li>
-                  <h3>сувениры</h3>
-                  <p>не только китайского, но и местного<br>
-                  произвадства!</p>
-                </li>
-              </ul>
-            </section>
-          </li>
-          <li>
-            <h3>там есть<br>
-            мост дьявола</h3>
-            <p>- №2 -</p>
-            <p>да, по нему можно пройти! если конечно<br>
+      <section class="content-feature">
+        <section class="feature">
+          <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Иконка дома">
+          <h2>Жильё</h2>
+          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино</p>
+        </section>
+        <section class="feature">
+          <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Иконка бургера">
+          <h2>Еда</h2>
+          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        </section>
+        <section class="feature">
+          <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Иконка сувенира">
+          <h2>Сувениры</h2>
+          <p>Не только китайского, но и местного произвадства!</p>
+        </section>
+      </section>
+      <section class="content-reason-2">
+        <div class="content-reason-image to-left">
+          <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Каньон">
+        </div>
+        <div class="content-reason-text to-left">
+          <b class="content-reason-title">
+            Там есть мост дьявола
+          </b>
+          <span class="content-reason-number">- №2 -</span>
+          <p>Да, по нему можно пройти! если конечно
             вы осмелитесь</p>
-          </li>
-          <li>
-            <h3>
-              небольшая<br>
-              площадь
-            </h3>
-            <p>- №3 -</p>
-            <p>все достопримечательности<br>
-            находятся очень близко</p>
-          </li>
-          <li>
-            <h3>
-              красивая<br>
-              дорога
-            </h3>
-            <p>- №4 -</p>
-            <p>ехать в седону из лас-вегаса совсем<br>
-            не скучно!</p>
-          </li>
-          <li>
-            <h3>
-              мало<br>
-              туристов
-            </h3>
-            <p>- №5 -</p>
-            <p>большинство едет в гранд каньон<br>
-            и толпится там</p>
-          </li>
-        </ul>
+        </div>
       </section>
+      <div class="content-reason-row">
+        <section class="content-reason-short">
+          <b class="content-reason-title">
+            Небольшая площадь
+          </b>
+          <span class="content-reason-number">- №3 -</span>
+          <p>Все достопримечательности находятся очень близко</p>
+        </section>
+        <section class="content-reason-short">
+          <b class="content-reason-title">
+            Красивая дорога
+          </b>
+          <span class="content-reason-number">- №4 -</span>
+          <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+        </section>
+        <section class="content-reason-short">
+          <b class="content-reason-title">
+            Мало туристов
+          </b>
+          <span class="content-reason-number">- №5 -</span>
+          <p>Большинство едет в гранд каньон и толпится там</p>
+        </section>
+      </div>
+    </div>
+    <div class="search">
+      <b class="search-title">
+        Заинтересовались?
+      </b>
+      <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <a href="#">Поиск гостиницы в седоне</a>
+    </div>
+  </main>
+  <div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d498114.8569697676!2d-111.97964710436146!3d34.89723423015155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1481363782216"
+      allowfullscreen="">
+    </iframe>
+  </div>
+  <footer>
+    <div>
+      <a href="#">#visitsedona</a>
+      <a href="tel:+7(495)666-01-66">ТЕЛ: +7(495) 666-01-66</a>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a href="#">Твиттер</a>
+          <i class="icon-twitter">
+            <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Иконка твиттера">
+          </i>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+          <i class="icon-facebook">
+            <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Иконка фейсбука">
+          </i>
+        </li>
+        <li>
+          <a href="#">Ютуб</a>
+          <i class="icon-youtobe">
+            <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Иконка ютуба">
+          </i>
+        </li>
+      </ul>
+    </div>
 
-      <section>
-        <h2>заинтересовались?</h2>
-        <p>укажите предпологаемые даты поездки,<br>
-        и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      </section>
-    </main>
+    <div>
+      <span>Website by</span>
+      <a href="https://htmlacademy.ru/study">
+        <img src="https://via.placeholder.com/220x145" width="184" height="145" alt="Логотип">
+        htmlacademy
+      </a>
+    </div>
+  </footer>
+</body>
 
-    <footer>
-      <section>
-        <h2>как нас найти</h2>
-        <p>#visitSEDONA<br>
-          ТЕЛ: +7(495) 666-01-66</p>
-      </section>
-
-      <section>
-        <h2>Давайте дружить!</h2>
-        <ul>
-          <li>
-            <a href="#">твиттер</a>
-          </li>
-          <li>
-            <a href="#">Фейсбук</a>
-          </li>
-          <li>
-            <a href="#">ютуб</a>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>разработано</h2>
-        <p>Website by</p>
-      </section>
-    </footer>
-
-    <section>
-      <h2>поиск гостиницы в седоне
-      </h2>
-    </section>
-
-  </body>
 </html>
